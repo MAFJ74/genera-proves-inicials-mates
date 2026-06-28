@@ -7,39 +7,81 @@
 </head>
 <body>
     <h1>Prova inicial de matemàtiques aplicades a les Ciències Socials 1r de Batxillerat</h1>
-    
-    <form>
+
+    <form id="quizForm">
         <fieldset>
-            <legend>Pregunta 1: Funcions</legend>
-            <p>Considera la funció f(x) = 2x + 3. Quin és el valor de f(2)?</p>
-            
-            <label>
-                <input type="radio" name="resposta1" value="a">
-                a) 5
-            </label>
-            <br>
-            
-            <label>
-                <input type="radio" name="resposta1" value="b">
-                b) 7
-            </label>
-            <br>
-            
-            <label>
-                <input type="radio" name="resposta1" value="c">
-                c) 8
-            </label>
-            <br>
-            
-            <label>
-                <input type="radio" name="resposta1" value="d">
-                d) 10
-            </label>
-            <br>
+            <legend>Pregunta 1: Aritmètica</legend>
+            <p>Quin és el resultat de 125 + 76?</p>
+            <label><input type="radio" name="resposta1" value="a"> a) 191</label><br>
+            <label><input type="radio" name="resposta1" value="b"> b) 201</label><br>
+            <label><input type="radio" name="resposta1" value="c"> c) 199</label><br>
+            <label><input type="radio" name="resposta1" value="d"> d) 205</label><br>
         </fieldset>
-        
+
+        <fieldset>
+            <legend>Pregunta 2: Equacions</legend>
+            <p>Quina és la solució de 3x - 5 = 16?</p>
+            <label><input type="radio" name="resposta2" value="a"> a) x = 7</label><br>
+            <label><input type="radio" name="resposta2" value="b"> b) x = 5</label><br>
+            <label><input type="radio" name="resposta2" value="c"> c) x = 8</label><br>
+            <label><input type="radio" name="resposta2" value="d"> d) x = 11</label><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Pregunta 3: Sistemes</legend>
+            <p>En el sistema x + y = 7 i x - y = 3, quin és el valor de x?</p>
+            <label><input type="radio" name="resposta3" value="a"> a) 2</label><br>
+            <label><input type="radio" name="resposta3" value="b"> b) 3</label><br>
+            <label><input type="radio" name="resposta3" value="c"> c) 5</label><br>
+            <label><input type="radio" name="resposta3" value="d"> d) 4</label><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Pregunta 4: Inecuacions</legend>
+            <p>Quina és la solució de 2x + 1 &lt; 7?</p>
+            <label><input type="radio" name="resposta4" value="a"> a) x &lt; 3</label><br>
+            <label><input type="radio" name="resposta4" value="b"> b) x &lt; 2</label><br>
+            <label><input type="radio" name="resposta4" value="c"> c) x &lt; 4</label><br>
+            <label><input type="radio" name="resposta4" value="d"> d) x &lt; 1</label><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Pregunta 5: Funcions</legend>
+            <p>Si f(x) = x² - 4 i g(x) = 2x, quin és f(2)?</p>
+            <label><input type="radio" name="resposta5" value="a"> a) 0</label><br>
+            <label><input type="radio" name="resposta5" value="b"> b) 2</label><br>
+            <label><input type="radio" name="resposta5" value="c"> c) 4</label><br>
+            <label><input type="radio" name="resposta5" value="d"> d) 6</label><br>
+        </fieldset>
+
         <br>
-        <button type="submit">Corregir</button>
+        <button type="button" onclick="corregir()">Corregir</button>
     </form>
+
+    <p id="resultat"></p>
+
+    <script>
+        function corregir() {
+            var respostes = {
+                resposta1: 'a',
+                resposta2: 'a',
+                resposta3: 'c',
+                resposta4: 'b',
+                resposta5: 'a'
+            };
+            var correctes = 0;
+            var errades = 0;
+            for (var nom in respostes) {
+                var seleccionada = document.querySelector('input[name="' + nom + '"]:checked');
+                if (seleccionada && seleccionada.value === respostes[nom]) {
+                    correctes++;
+                } else {
+                    errades++;
+                }
+            }
+            var text = 'Correctes: ' + correctes + '. Errades: ' + errades + '.';
+            document.getElementById('resultat').textContent = text;
+        }
+    </script>
 </body>
 </html>
