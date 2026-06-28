@@ -33,4 +33,4 @@ Aquest projecte no requereix dependències específiques per als fitxers actuals
 
 ## Autor
 
-Miguel Ángel Fernández Juan. Curs VibeCoding IA
+Miguel Ángel Fernández Juan. Curs VibeCoding IA.
