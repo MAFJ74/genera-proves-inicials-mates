@@ -1,32 +1,36 @@
-# VIbeCoding_IA
+# Genera Proves Inicials de Matemàtiques
 
-Descripción del proyecto: Curso de IA y Codificación
+## Necessitat
+Generar proves inicials aleatòries de matemàtiques per a alumnes de ESO i Batxillerat, adaptades al currículum de la Comunitat Valenciana.
 
-## Contenido
+## Objectiu
+Ajudar professors i estudiants a preparar-se per avaluacions inicials amb qüestionaris i exercicis de nivell adequat.
 
-- Ejercicios y proyectos de IA
-- Ejemplos de código
-- Recursos educativos
+## Funcionalitats principals
 
-## Requisitos
+- Creació automàtica de proves inicials de matemàtiques.
+- Preguntes de tipus test amb diverses opcions amb una resposta correcta.
+- Botó per mostrar les respostes encertades i les errades.
+- Contingut adequat per a 1r de Batxillerat.
 
-- Python 3.x
-- Librerías necesarias
 
-## Instalación
 
-```bash
-pip install -r requirements.txt
-```
 
-## Uso
+## Fitxers principal
 
-Instrucciones de uso aquí.
+- `README.md` - Descripció del projecte
+- `index.html` - Exemple de qüestionari inicial en HTML
+
+## Instal·lació
+
+Aquest projecte no requereix dependències específiques per als fitxers actuals. Simplement obre `index.html` en un navegador.
+
+## Ús
+
+1. Revisa el fitxer `index.html`.
+2. Afegeix més preguntes o ajusta el contingut segons el nivell de l'alumnat.
+3. Utilitza el projecte per generar proves inicials pràctiques.
 
 ## Autor
 
-Estudiante - Cursos Cefire
-
-## Licencia
-
-Licencia del proyecto aquí.
+Miguel Ángel Fernández Juan. Curs VibeCoding IA
