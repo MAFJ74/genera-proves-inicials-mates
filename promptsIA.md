@@ -44,3 +44,9 @@ Usa HTML correcte i senzill, sense CSS extern ni JavaScript de moment. Tin en co
 ---
 
 Aquest fitxer es mantindrà i s'anirà afegint amb noves entrades quan es demani.
+
+---
+
+## 11) Sí, actualitza'ls
+Afegir la funcionalitat perquè cada prompt i la seva resposta es guardin automàticament en `promptsIA.md` i `respostesIA.md`.
+**Marca temporal:** 2026-06-29T13:00:00Z

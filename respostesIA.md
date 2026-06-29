@@ -85,13 +85,17 @@ He implementat la versió dinàmica amb proves aleatòries i un disseny més mod
 
 Canvis aplicats:
 
-- `index.html`: ara té botons `Corregir` i `Nova prova`; el formulari es crea dinàmicament al centre de la pàgina; el títol és més proporcionat.
-- `script.js`: banc de preguntes per temes; `novaProva()` genera 5 preguntes; `corregir()` avalua el conjunt actual.
-- `style.css`: nou estil amb paleta blava i blanca; formulari centrat i cantonades rodones; responsive.
 
 Puc afegir també un missatge detallat de correcció si vols.
 
 **Marca temporal (resposta):** 2026-06-29T12:34:00Z
+
+---
+
+## Resposta 11 (a la petició "Sí, actualitza'ls")
+He afegit la funcionalitat proposada i he guardat la prompt i la resposta al registre. També he fet un `git commit` i `git push` per versionar els canvis.
+
+**Marca temporal (resposta):** 2026-06-29T13:00:00Z
 
 ---
 
