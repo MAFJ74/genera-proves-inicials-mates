@@ -49,4 +49,6 @@ Aquest fitxer es mantindrà i s'anirà afegint amb noves entrades quan es demani
 
 ## 11) Sí, actualitza'ls
 Afegir la funcionalitat perquè cada prompt i la seva resposta es guardin automàticament en `promptsIA.md` i `respostesIA.md`.
-**Marca temporal:** 2026-06-29T13:00:00Z
+**Marca temporal:** 2026-06-29T13:00:00Z## 12) Prova automatitzada: comprovar script
+**Marca temporal:** 2026-06-29T20:22:07Z
+
