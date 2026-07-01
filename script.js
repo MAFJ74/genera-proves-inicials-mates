@@ -60,9 +60,9 @@ var bancPreguntes = {
             correcta: 1
         },
         {
-            text: 'En el sistema xy = 4 i x + y = 5, quin parell de valors compleix el sistema?',
+            text: 'En el sistema xy = 4 i x + y = 5, quin parell de valors és una solució?',
             options: ['(1,4)', '(2,2)', '(4,1)', '(0,5)'],
-            correcta: 1
+            correcta: 0
         },
         {
             text: 'Resol x^2 + y^2 = 13 i x - y = 1. Quin és x?',
@@ -126,6 +126,7 @@ function obtenirPreguntaAleatoria(tema) {
 
 function generarProva() {
     provaActual = [
+        obtenirPreguntaAleatoria('aritmetica'),
         obtenirPreguntaAleatoria('equacions'),
         obtenirPreguntaAleatoria('sistemes'),
         obtenirPreguntaAleatoria('inequacions'),
