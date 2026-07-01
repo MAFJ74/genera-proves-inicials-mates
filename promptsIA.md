@@ -54,9 +54,5 @@ Afegir la funcionalitat perqu√® cada prompt i la seva resposta es guardin autom√
 ## 12) Prova automatitzada: comprovar script
 **Marca temporal:** 2026-06-29T20:22:07Z
 
-## 13) Afig els nous prompts a promptsIA.md i les respostes a respostesIA.md, com s'ha fet anteriorment.
-**Marca temporal:** 2026-07-01T20:20:06Z
 
-## 13) Afig els nous prompts a promptsIA.md i les respostes a respostesIA.md, com s'ha fet anteriorment.
-**Marca temporal:** 2026-07-01T20:20:06Z
 
