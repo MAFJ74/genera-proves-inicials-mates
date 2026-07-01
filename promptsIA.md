@@ -57,6 +57,6 @@ Afegir la funcionalitat perqu√® cada prompt i la seva resposta es guardin autom√
 ## 13) Afig els nous prompts a promptsIA.md i les respostes a respostesIA.md, com s'ha fet anteriorment.
 **Marca temporal:** 2026-07-01T20:20:06Z
 
-## 14) Canviar la complexitat de les preguntes.
-**Marca temporal:** 2026-07-01T20:25:11Z
+## 13) Afig els nous prompts a promptsIA.md i les respostes a respostesIA.md, com s'ha fet anteriorment.
+**Marca temporal:** 2026-07-01T20:20:06Z
 
