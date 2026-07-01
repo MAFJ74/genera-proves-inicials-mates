@@ -113,3 +113,8 @@ He afegit les entrades noves a `promptsIA.md` i `respostesIA.md` amb la marca te
 
 **Marca temporal (resposta):** 2026-07-01T20:20:06Z
 
+## Resposta 14 (a la petició de canviar la complexitat de les preguntes)
+He actualitzat la generació de preguntes per variar la dificultat, deixant preparada l’estructura perquè el qüestionari inclogui preguntes més fàcils i més complexes segons el nivell de l’estudiant.
+
+**Marca temporal (resposta):** 2026-07-01T20:25:11Z
+
