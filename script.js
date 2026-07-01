@@ -1,86 +1,116 @@
 var bancPreguntes = {
     aritmetica: [
         {
-            text: 'Quin és el resultat de 125 + 76?',
-            options: ['191', '201', '199', '205'],
+            text: 'Racionalitza l\'expressió 3/√2. Quina és la forma correcta?',
+            options: ['3√2/2', '3/(2√2)', '√6', '6/√2'],
             correcta: 0
         },
         {
-            text: 'Quina és la suma de 342 i 158?',
-            options: ['490', '500', '480', '510'],
+            text: 'Factoritza √18 + √8.',
+            options: ['3√2 + 2√2', '√2(3 + 2)', '5√2', '√16 + √10'],
+            correcta: 2
+        },
+        {
+            text: 'Quina és la simplificació de √50 / √2?',
+            options: ['5', '5√2', '√25', '√25/2'],
             correcta: 0
         },
         {
-            text: 'Quin és el 25% de 240?',
-            options: ['60', '50', '70', '55'],
+            text: 'Expressa 12√3 com a producte de factor real.',
+            options: ['6√12', '2√27', '4√9', '12√3'],
+            correcta: 0
+        },
+        {
+            text: 'Quin és el factor comú extraïble de 6√5 + 3√20?',
+            options: ['3√5', '6√5', '√5', '3√20'],
             correcta: 0
         }
     ],
     equacions: [
         {
-            text: 'Quina és la solució de 3x - 5 = 16?',
-            options: ['7', '5', '8', '11'],
+            text: 'Resol x^2 - 5x + 6 = 0 mitjançant factorització.',
+            options: ['x = 2 o x = 3', 'x = 1 o x = 6', 'x = -2 o x = -3', 'x = 5'],
             correcta: 0
         },
         {
-            text: 'Resol x + 9 = 14.',
-            options: ['5', '4', '6', '7'],
+            text: 'Resol l\'equació racional (x + 1) / (x - 2) = 3.',
+            options: ['x = 5', 'x = 1', 'x = -1', 'x = 2'],
             correcta: 0
         },
         {
-            text: 'Si 4x = 20, què val x?',
-            options: ['5', '4', '6', '10'],
+            text: 'Resol l\'equació irracional √(x + 1) = 3.',
+            options: ['x = 8', 'x = 2', 'x = 9', 'x = 4'],
+            correcta: 0
+        },
+        {
+            text: 'Resol l\'equació exponencial 2^x = 8.',
+            options: ['x = 3', 'x = 4', 'x = 2', 'x = 1/3'],
+            correcta: 0
+        },
+        {
+            text: 'Resol l\'equació logarítmica log_2(x - 1) = 3.',
+            options: ['x = 9', 'x = 8', 'x = 7', 'x = 4'],
             correcta: 0
         }
     ],
     sistemes: [
         {
-            text: 'En el sistema x + y = 7 i x - y = 3, quin és el valor de x?',
-            options: ['2', '3', '5', '4'],
-            correcta: 2
-        },
-        {
-            text: 'Si x + y = 5 i x = 2, quin és y?',
-            options: ['2', '3', '4', '1'],
+            text: 'Resol el sistema no lineal: x^2 + y = 5 i x + y = 3. Quin és x?',
+            options: ['1', '2', '3', '0'],
             correcta: 1
         },
         {
-            text: 'En el sistema x + y = 6 i y = 2, quin és x?',
-            options: ['2', '3', '4', '1'],
-            correcta: 2
+            text: 'En el sistema xy = 4 i x + y = 5, quin parell de valors compleix el sistema?',
+            options: ['(1,4)', '(2,2)', '(4,1)', '(0,5)'],
+            correcta: 1
+        },
+        {
+            text: 'Resol x^2 + y^2 = 13 i x - y = 1. Quin és x?',
+            options: ['3', '2', '4', '1'],
+            correcta: 0
+        },
+        {
+            text: 'Resol el sistema x^2 + y = 7 i x - y = 1. Quin és x?',
+            options: ['2', '3', '1', '4'],
+            correcta: 0
         }
     ],
     inequacions: [
         {
-            text: 'Quina és la solució de 2x + 1 < 7?',
-            options: ['x < 3', 'x < 2', 'x < 4', 'x < 1'],
-            correcta: 1
-        },
-        {
-            text: 'Quina és la solució de x - 2 < 4?',
-            options: ['x < 6', 'x < 2', 'x < 5', 'x < 4'],
+            text: 'Quina és la solució de (2x - 1) / (x - 2) > 0?',
+            options: ['x < 1/2 o x > 2', 'x > 2', '0 < x < 2', 'x < 1/2'],
             correcta: 0
         },
         {
-            text: 'Quina és la solució de 3x < 12?',
-            options: ['x < 4', 'x < 3', 'x < 5', 'x < 6'],
+            text: 'Quina és la solució de x^2 - 4x + 3 < 0?',
+            options: ['1 < x < 3', 'x < 1', 'x > 3', 'x < 1 o x > 3'],
+            correcta: 0
+        },
+        {
+            text: 'Quina és la solució de (x + 2) / (x + 1) ≤ 0?',
+            options: ['-2 ≤ x < -1', 'x < -2', 'x > -1', '-1 < x < -2'],
+            correcta: 0
+        },
+        {
+            text: 'Quina és la solució de x^2 - 2x - 3 ≥ 0?',
+            options: ['x ≤ -1 o x ≥ 3', '-1 < x < 3', 'x ≥ 3', 'x ≤ -1'],
             correcta: 0
         }
     ],
     funcions: [
         {
-            text: 'Si f(x) = x² - 4, quin és f(2)?',
-            options: ['0', '2', '4', '6'],
+            text: 'Quin és el domini de f(x) = 1 / (x - 2)?',
+            options: ['x ≠ 2', 'x > 2', 'x ≥ 2', 'x < 2'],
             correcta: 0
         },
         {
-            text: 'Si f(x) = 2x + 1, quin és f(3)?',
-            options: ['7', '6', '8', '5'],
+            text: 'Quins són els punts de tall amb els eixos de f(x) = x^2 - 4?',
+            options: ['(0,-4) i (-2,0), (2,0)', '(0,4) i (2,0)', '(0,0) i (2,-4)', '(-2,0), (2,0) només'],
             correcta: 0
         },
         {
-            text: 'Quina és la imatge de 4 per la funció f(x) = x - 1?',
-            options: ['3', '4', '5', '2'],
+            text: 'Quina afirmació sobre la continuïtat de f(x) = √(x - 1) és correcta al seu domini?',
+            options: ['És contínua per a x ≥ 1', 'No és contínua en cap punt', 'Només és contínua en x = 1', 'És contínua per a x > 1 i discontínua en x = 1'],
             correcta: 0
         }
     ]
@@ -96,7 +126,6 @@ function obtenirPreguntaAleatoria(tema) {
 
 function generarProva() {
     provaActual = [
-        obtenirPreguntaAleatoria('aritmetica'),
         obtenirPreguntaAleatoria('equacions'),
         obtenirPreguntaAleatoria('sistemes'),
         obtenirPreguntaAleatoria('inequacions'),
