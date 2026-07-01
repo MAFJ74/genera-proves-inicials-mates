@@ -108,3 +108,8 @@ Resposta automàtica de prova
 
 **Marca temporal (resposta):** 2026-06-29T20:22:07Z
 
+## Resposta 13 (a la petició d'afegir nous registres)
+He afegit les entrades noves a `promptsIA.md` i `respostesIA.md` amb la marca temporal actual.
+
+**Marca temporal (resposta):** 2026-07-01T20:20:06Z
+
